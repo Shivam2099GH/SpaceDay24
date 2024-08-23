@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    
+    <title>CosmiQuiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="background.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">CosmiQuiz</a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="facts.html">Achievements</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <img src="planet1.png">
+                    <h1>Space-y</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Website Tutorials</span>
+                        <span class="header-score">Score:0/10</span>
+                    </div>
+                    <h2 class="question-text">Which planet is known as the Red Planet?</h2>
+                    <div class="option-list">
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 10 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Result!</h2>
+                    <div class="percentage-container"> 
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Your Score 0 out of 5</span> 
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button> 
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <div class="blinkingtitle">
+                        <h1>The Space Quiz</h1>
+                        <p></p>
+                    </div>
+                    <button class="start_button">Begin</button>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <ol>
+        <li class="info">1.There are 10 questions.</li>
+        <li class="info">2.Green if you are right.</li>
+        <li class="info">3.Red if you are wrong.</li>
+        <li class="info">4.Aim for the stars.</li>
+    </ol>
+        
+        <div class="button-group">
+            <button class="info-button exit-btn">Exit</button>
+            <a href="#" class="info-button continue-btn">Continue</a>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
