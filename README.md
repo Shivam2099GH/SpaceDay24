@@ -14,7 +14,6 @@ Web app made by Shivam Anand and Akshat Jha
   - [About Page](#about-page)
   - [Achievements Page](#achievements-page)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 The Space Quiz App is a web-based quiz game that challenges users with 10 space-related questions. The application provides immediate feedback on your answers and displays your final score at the end of the quiz.
@@ -32,7 +31,7 @@ The Space Quiz App is a web-based quiz game that challenges users with 10 space-
 ## How to Run
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/yourusername/space-quiz-app.git
+   git clone https://github.com/Shivam2099GH/SpaceDay24.git
    ```
 2. **Navigate to the Project Directory**: 
    ```bash
